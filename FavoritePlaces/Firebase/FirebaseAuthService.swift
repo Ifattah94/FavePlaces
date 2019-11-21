@@ -33,7 +33,7 @@ class FirebaseAuthService {
     
     func loginUser(email: String, password: String, completion: @escaping (Result<(), Error>) -> ()) {
            auth.signIn(withEmail: email, password: password) { (result, error) in
-               if let user = result?.user {
+               if let _ = result?.user {
                    completion(.success(()))
                } else if let error = error {
                    completion(.failure(error))

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import FirebaseAuth
 class LoginViewController: UIViewController {
 
     //MARK: UI Objects
