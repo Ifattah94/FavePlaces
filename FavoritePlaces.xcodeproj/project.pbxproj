@@ -15,6 +15,7 @@
 		81AECD9723862A0700C45A02 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AECD9623862A0700C45A02 /* FirebaseAuthService.swift */; };
 		81AECD9923862AAA00C45A02 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AECD9823862AAA00C45A02 /* LoginViewController.swift */; };
 		81AECD9B23862B0000C45A02 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AECD9A23862B0000C45A02 /* SignUpViewController.swift */; };
+		81AECD9D23862D5400C45A02 /* MainMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AECD9C23862D5400C45A02 /* MainMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		81AECD9623862A0700C45A02 /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
 		81AECD9823862AAA00C45A02 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		81AECD9A23862B0000C45A02 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		81AECD9C23862D5400C45A02 /* MainMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				81AECD84238620C900C45A02 /* Assets.xcassets */,
 				81AECD86238620C900C45A02 /* LaunchScreen.storyboard */,
 				81AECD89238620C900C45A02 /* Info.plist */,
+				81AECD9C23862D5400C45A02 /* MainMapViewController.swift */,
 			);
 			path = FavoritePlaces;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AECD9D23862D5400C45A02 /* MainMapViewController.swift in Sources */,
 				81AECD9B23862B0000C45A02 /* SignUpViewController.swift in Sources */,
 				81AECD9723862A0700C45A02 /* FirebaseAuthService.swift in Sources */,
 				81AECD7C238620C700C45A02 /* AppDelegate.swift in Sources */,
